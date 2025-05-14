@@ -4,9 +4,108 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <title>Guy Moalem</title>
   </head>
   <body>
-    <h1>Guy Moalem</h1>
+    <div class="section personal-info">
+      <img
+        src="images/profile-pic-no-bg.png"
+        alt="Profile picture, cartoonish"
+        class="profile-pic"
+      />
+      <h1>Guy Moalem</h1>
+      <p>Computer Science Student @ BGU 🐫</p>
+    </div>
+
+    <div class="section social-media">
+      <a href="https://gitlab.com/guychuk" target="_blank" rel="noopener">
+        <img
+          src="https://img.shields.io/badge/GitLab-guychuk-orange?logo=gitlab&logoColor=white"
+          alt="GitLab badge"
+        />
+      </a>
+
+      <a href="https://github.com/guychuk" target="_blank" rel="noopener">
+        <img
+          src="https://img.shields.io/badge/GitHub-guychuk-181717?logo=github&logoColor=white"
+          alt="Personal GitHub badge"
+        />
+      </a>
+
+      <a href="https://github.com/gmoalemm" target="_blank" rel="noopener">
+        <img
+          src="https://img.shields.io/badge/Academic%20GitHub-gmoalemm-181717?logo=github&logoColor=white"
+          alt="Academic GitHub badge"
+        />
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/guy-moalem/"
+        target="_blank"
+        rel="noopener"
+      >
+        <img
+          src="https://img.shields.io/badge/LinkedIn-guy--moalem-0077B5?logo=linkedin&logoColor=white"
+          alt="LinkedIn badge"
+        />
+      </a>
+    </div>
+
+    <div class="section projects">
+      <!-- <h2>Projects</h2> -->
+      <p>Here are some of the projects I've worked on:</p>
+      <div class="projects-list">
+        <div
+          class="project-card"
+          onclick="window.open('https://guychuk.github.io/connections-plus/', '_blank')"
+        >
+          <img
+            src="images/connections-plus-icon.png"
+            alt="Connections+ logo"
+            class="project-icon"
+          />
+          <h3>Connections+</h3>
+          <p>
+            A remix of The New York Times' Connections — but with a twist!
+            Connectons+ lets you tackle word groups of different sizes for an
+            extra dose of challenge and variety.
+          </p>
+        </div>
+
+        <div
+          class="project-card"
+          onclick="window.open('https://guychuk.github.io/automata-simulator/', '_blank')"
+        >
+          <img
+            src="images/automata-simulator-icon.png"
+            alt="Automata Simulator logo"
+            class="project-icon"
+          />
+          <h3>Automata Simulator</h3>
+          <p>
+            A simulator for various types of automata, built with TypeScript. It
+            allows you to define, visualize, and simulate the behavior of finite
+            state machines.
+          </p>
+        </div>
+
+        <div
+          class="project-card"
+          onclick="window.open('https://github.com/guychuk/matrix-calculator', '_blank')"
+        >
+          <h3>Matrix Calculator and Linear Algebra Library</h3>
+          <p>
+            A TypeScript-based library for matrix calculations and linear
+            algebra operations. It provides a comprehensive set of tools for
+            working with matrices, vectors, complex numbers, and polynomials.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
